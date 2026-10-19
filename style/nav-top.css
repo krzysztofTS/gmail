@@ -1,0 +1,66 @@
+.nav-top > button > img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-top > button:first-child > img {
+  width: 109px;
+  height: 40px;
+}
+
+.nav-top > button:first-child {
+  width: 109px;
+  margin-left: 22px;
+  margin-right: 200px;
+  margin-top: 5px;
+}
+
+.nav-top > button,
+.search > button {
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.search > button {
+  background-color: #e9eef6;
+}
+
+.nav-top > button {
+  background-color: white;
+}
+
+.nav-top > .search > button > img {
+  height: 20px;
+  width: 20px;
+  justify-self: center;
+  display: flex;
+  align-self: center;
+}
+
+.nav-top {
+  flex-direction: row;
+  display: flex;
+  height: 64px;
+}
+
+.search {
+  background-color: #e9eef6;
+  width: 650px;
+  height: 48px;
+  padding: 3px;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding-inline: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search > input {
+  border: none;
+  width: 550px;
+  height: 40px;
+  background-color: #e9eef6;
+  font-size: 18px;
+}
