@@ -49,6 +49,7 @@
   height: 32px;
   border-radius: 15px;
   background-color: transparent;
+  align-items: center;
 }
 
 .nav-left > ul > li:first-child > button > span:last-child {
@@ -79,4 +80,22 @@
   border-top: none;
   background-color: #e9eef6;
   transform: rotate(45deg);
+}
+
+.nav-left > div > button {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-left > div > span {
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: auto;
+}
+
+.nav-left > div {
+  width: 244px;
+  height: 28px;
+  display: flex;
+  padding-left: 12px;
 }
