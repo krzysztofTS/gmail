@@ -32,7 +32,8 @@
 
 .search {
   background-color: #e9eef6;
-  width: 750px;
+  width: 100%;
+  max-width: 750px;
   height: 48px;
   padding: 3px;
   border-radius: 30px;
