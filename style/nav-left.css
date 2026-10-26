@@ -57,6 +57,10 @@
   margin-left: auto;
 }
 
+.nav-left > ul > li:first-child > button > span {
+  font-weight: bold;
+}
+
 .nav-left > ul > li > button,
 .nav-left > ul > li {
   width: 100%;
