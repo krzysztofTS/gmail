@@ -3,6 +3,7 @@ body {
   justify-content: flex-start;
   padding: 0;
   margin: 0;
+  height: 100vh;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -19,4 +20,5 @@ body > div {
 body > div > div {
   display: flex;
   flex-direction: row;
+  height: calc(100% - 64px);
 }
