@@ -21,4 +21,24 @@ body > div > div {
   display: flex;
   flex-direction: row;
   height: calc(100% - 64px);
+  min-width: 0;
+  width: 100%;
+}
+
+.mails-section {
+  min-width: 0;
+}
+
+.nav-left {
+  flex-shrink: 0;
+}
+
+.mails-section {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.nav-right {
+  flex-shrink: 0;
 }

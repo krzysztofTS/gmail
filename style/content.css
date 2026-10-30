@@ -1,4 +1,62 @@
+.mails {
+  background-color: rgb(239, 246, 255);
+  border-radius: 10px;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.mails table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.mails td {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 2px 8px;
+  height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.mails td:nth-child(1) {
+  width: 35px;
+}
+
+.mails td:nth-child(2) {
+  width: 35px;
+}
+
+.mails .sender {
+  width: 120px;
+}
+
+.mails .topic {
+  width: auto;
+  white-space: nowrap;
+}
+
+.mails .date {
+  width: 65px;
+}
+
+.mails .text {
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 75%;
+}
+
 .mails img {
   width: 20px;
   height: 20px;
+  vertical-align: middle;
+}
+
+.topic::after {
+  content: " - ";
 }
