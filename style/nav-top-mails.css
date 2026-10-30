@@ -20,8 +20,8 @@
   border: 2px solid;
 }
 
-.nav-top-mails > button:first-child {
-  margin: 0;
+.nav-top-mails > input {
+  margin-right: 5px;
   padding: 0;
 }
 

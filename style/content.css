@@ -23,11 +23,11 @@
 }
 
 .mails td:nth-child(1) {
-  width: 35px;
+  width: 10px;
 }
 
 .mails td:nth-child(2) {
-  width: 35px;
+  width: 20px;
 }
 
 .mails .sender {
