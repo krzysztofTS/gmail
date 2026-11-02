@@ -4,6 +4,11 @@
   height: 20px;
 }
 
+.nav-left.hidden {
+  display: none;
+  transition: 10s;
+}
+
 .nav-left {
   display: flex;
   flex-direction: column;
@@ -89,6 +94,7 @@
 .nav-left > div > button {
   background-color: transparent;
   border: none;
+  margin-right: 20px;
 }
 
 .nav-left > div > span {

@@ -3,6 +3,7 @@
   height: 48px;
   flex-direction: row;
   display: flex;
+  flex-shrink: 0;
 }
 
 .nav-top-mails button {
