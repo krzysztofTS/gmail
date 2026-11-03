@@ -30,3 +30,16 @@ const nav_left = document.querySelector(".nav-left");
 button_hamburger.addEventListener("click", () => {
   nav_left.classList.toggle("hidden");
 });
+
+const main_checkbox = document.querySelector(".nav-top-mails > input");
+const checkboxes = document.querySelectorAll(".mails input");
+
+main_checkbox.addEventListener("click", () => {
+  checkboxes.forEach((checkboxes) => {
+    if (main_checkbox.checked == true) {
+      checkboxes.checked = true;
+    } else {
+      checkboxes.checked = false;
+    }
+  });
+});
