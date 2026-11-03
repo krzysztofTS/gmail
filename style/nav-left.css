@@ -4,9 +4,12 @@
   height: 20px;
 }
 
-.nav-left.hidden {
-  display: none;
-  transition: 10s;
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block;
 }
 
 .nav-left {
@@ -57,12 +60,12 @@
   align-items: center;
 }
 
-.nav-left > ul > li:first-child > button > span:last-child {
+.nav-left > ul:first-of-type > li:first-child > button > span:last-child {
   display: flex;
   margin-left: auto;
 }
 
-.nav-left > ul > li:first-child > button > span {
+.nav-left > ul:first-of-type > li:first-child > button > span {
   font-weight: bold;
 }
 
@@ -71,7 +74,7 @@
   width: 100%;
 }
 
-.nav-left > ul > li:first-child > button {
+.nav-left > ul:first-of-type > li:first-child > button {
   background-color: #d3e3fd;
 }
 

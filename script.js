@@ -43,3 +43,12 @@ main_checkbox.addEventListener("click", () => {
     }
   });
 });
+const nav_left_more_options = document.querySelector(
+  ".nav-left > ul:last-of-type",
+);
+const more_options = document.querySelector(
+  ".nav-left > ul:first-of-type > li:last-child",
+);
+more_options.addEventListener("click", () => {
+  nav_left_more_options.classList.toggle("hidden");
+});
