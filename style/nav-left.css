@@ -94,6 +94,10 @@
   transform: rotate(45deg);
 }
 
+.up {
+  transform: rotate(225deg) !important;
+}
+
 .nav-left > div > button {
   background-color: transparent;
   border: none;

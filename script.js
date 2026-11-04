@@ -46,9 +46,22 @@ main_checkbox.addEventListener("click", () => {
 const nav_left_more_options = document.querySelector(
   ".nav-left > ul:last-of-type",
 );
+const more_options_span = document.querySelector(
+  ".nav-left > ul:first-of-type > li:last-child > button > span",
+);
+const more_options_arrow = document.querySelector(
+  ".nav-left > ul:first-of-type > li:last-child > button > div",
+);
 const more_options = document.querySelector(
   ".nav-left > ul:first-of-type > li:last-child",
 );
 more_options.addEventListener("click", () => {
   nav_left_more_options.classList.toggle("hidden");
+  const tekst = more_options_span.textContent;
+  if (tekst == "Więcej") {
+    more_options_span.textContent = "Mniej";
+  } else {
+    more_options_span.textContent = "Więcej";
+  }
+  more_options_arrow.classList.toggle("up");
 });
